@@ -104,6 +104,7 @@ Adobe Finale is a full-stack web application that helps researchers, students, a
 - **Node.js 18+** (for frontend development)
 - **Python 3.11+** (for backend development)
 - **Adobe Embed API Key** (for PDF viewing features)
+- **Embed API** ( 84178a3184564b03a06edacec197eb49 )
 
 ### Option 1: Docker Deployment (Recommended)
 
