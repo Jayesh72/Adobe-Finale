@@ -106,6 +106,8 @@ Adobe Finale is a full-stack web application that helps researchers, students, a
 - **Adobe Embed API Key** (for PDF viewing features)
 - **Embed API** ( 84178a3184564b03a06edacec197eb49 )
 
+### Adobe Embed API Key : 84178a3184564b03a06edacec197eb49
+
 ### Option 1: Docker Deployment (Recommended)
 
 1. **Clone the repository**
