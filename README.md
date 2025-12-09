@@ -2,7 +2,7 @@
 
 A comprehensive web application that transforms PDF research documents into interactive, AI-enhanced learning experiences. Adobe Finale combines document analysis, AI insights, and audio generation to create an intelligent research companion.
 
-## 🎯 Project Overview
+## Project Overview
 
 Adobe Finale is a full-stack web application that helps researchers, students, and professionals extract maximum value from their PDF documents through:
 
@@ -12,7 +12,7 @@ Adobe Finale is a full-stack web application that helps researchers, students, a
 - **Adobe PDF Integration**: Seamless PDF viewing and annotation capabilities
 - **User Management**: Secure authentication and document library management
 
-## 🏗️ Architecture & Approach
+## Architecture & Approach
 
 ### System Architecture
 ```
@@ -61,7 +61,6 @@ Adobe Finale is a full-stack web application that helps researchers, students, a
 - **TypeScript 5.5.3** - Type-safe JavaScript development
 - **Vite 5.4.2** - Fast build tool and development server
 - **Tailwind CSS 3.4.1** - Utility-first CSS framework
-- **Lucide React 0.344.0** - Beautiful icon library
 - **Adobe Embed API** - PDF viewing and annotation capabilities
 
 ### Backend Stack
@@ -85,7 +84,6 @@ Adobe Finale is a full-stack web application that helps researchers, students, a
 ### AI Integration
 - **LangChain 0.3.27** - LLM orchestration framework
 - **Google Generative AI 0.8.5** - Gemini model integration
-- **OpenAI Integration** - GPT model support (configurable)
 
 ### Audio Generation
 - **Google Cloud Text-to-Speech 2.27.0** - Cloud-based TTS
@@ -97,7 +95,7 @@ Adobe Finale is a full-stack web application that helps researchers, students, a
 - **Python-dotenv 1.0.1** - Environment variable management
 - **Passlib 1.7.4** - Password hashing and security
 
-## 🚀 How to Build and Run
+## How to Build and Run
 
 ### Prerequisites
 - **Docker & Docker Compose** (recommended)
@@ -105,8 +103,6 @@ Adobe Finale is a full-stack web application that helps researchers, students, a
 - **Python 3.11+** (for backend development)
 - **Adobe Embed API Key** (for PDF viewing features)
 - **Embed API** ( 84178a3184564b03a06edacec197eb49 )
-
-### Adobe Embed API Key : 84178a3184564b03a06edacec197eb49
 
 ### Option 1: Docker Deployment (Recommended)
 
@@ -312,7 +308,7 @@ Adobe Finale/
 | `/api/insights/generate` | POST | Generate AI insights |
 | `/api/audio/generate` | POST | Generate audio from text |
 
-## 🎨 Features
+## Features
 
 ### Core Features
 - **PDF Upload & Processing**: Drag-and-drop PDF upload with AI-powered analysis
@@ -336,7 +332,7 @@ Adobe Finale/
 - **Modern UI**: Clean, intuitive interface built with Tailwind CSS
 - **Accessibility**: Audio generation and keyboard navigation support
 
-## 🔒 Security Features
+## Security Features
 
 - **JWT Authentication**: Secure token-based authentication
 - **Password Hashing**: Bcrypt password encryption
@@ -344,7 +340,7 @@ Adobe Finale/
 - **CORS Protection**: Cross-origin resource sharing configuration
 - **Input Validation**: Server-side input sanitization
 
-## 🚀 Performance Optimizations
+## Performance Optimizations
 
 - **Model Caching**: SentenceTransformer model loaded once at startup
 - **Database Indexing**: Optimized SQLite queries
@@ -352,14 +348,7 @@ Adobe Finale/
 - **Docker Multi-stage Build**: Optimized container image size
 - **Lazy Loading**: Components loaded on demand
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-**Adobe Finale** - Transforming research documents into intelligent learning experiences. 🚀
+<img width="2844" height="1520" alt="Screenshot 2025-12-09 220757" src="https://github.com/user-attachments/assets/b10680dc-07a1-44e2-8027-5aadd8a8cbe9" />
+<img width="2879" height="1526" alt="Screenshot 2025-12-09 222656" src="https://github.com/user-attachments/assets/2ed1c558-6169-43b7-92c6-b7a612d69f81" />
+<img width="2879" height="1519" alt="Screenshot 2025-12-09 222314" src="https://github.com/user-attachments/assets/737c6166-790b-49e7-bb79-e811be92ea60" />
+<img width="2879" height="1526" alt="Screenshot 2025-12-09 222334" src="https://github.com/user-attachments/assets/ffc8420c-108c-498c-ace0-1b34e192f7b5" />
